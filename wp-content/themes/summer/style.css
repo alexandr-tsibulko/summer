@@ -1,0 +1,333 @@
+/*
+Theme Name: Summer
+Author: Alexandr
+Author URI: http://wordpress.org/
+Version: 1.0
+*/
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px georgia; background:#fff url(images/body_bg.jpg) left top repeat; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,fieldset,td,tr,form,label,select,checkbox,input,textarea {
+    padding:0;
+    margin:0;
+    outline:none;
+    list-style:none;
+
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Georgia; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper {
+    overflow: hidden;
+    width: 695px;
+    margin: -18px auto 0;
+    padding-top: 34px;
+
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.header-holder {
+    min-width: 500px;
+    background: url(images/header_holder_bg.png) left top repeat-x;
+    height: 220px;
+}
+.header {
+    background: url(images/header_bg.png) center top no-repeat;
+    width: 1055px;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 220px;
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    left: 338px;
+    top: 25px;
+    display: block;
+}
+
+.header h1 a {
+    display: block;
+}
+.header h1 a img {
+    display: block;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar {
+    float: left;
+    text-align: right;
+    width: 164px;
+    margin-right: 10px;
+}
+
+.sidebar ul.nav {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.sidebar ul.nav li a {
+    text-align: center;
+    display: block;
+    background: url(images/sidebar_nav_li_bg.png) left top no-repeat;
+    line-height: 59px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #3C5739;
+}
+
+.sidebar h4 {
+    color: #3C5739;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.sidebar ul.social {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.sidebar ul.social li {
+    float: right;
+}
+.sidebar ul.social li a {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: url(images/socs.jpg) left top no-repeat;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.sidebar ul.social li.unw a {
+    background-position: -36px 0;
+}
+.sidebar ul.social li.tw a {
+    background-position: -73px 0;
+}
+.sidebar ul.social li.unw a:hover {
+    background-position: -36px 1px;
+}
+.sidebar ul.social li.tw a:hover {
+    background-position: -73px 1px;
+}
+.sidebar ul.social li.f a:hover {
+    background-position: 0  1px;
+}
+.sidebar p {
+    color: #30462E;
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.sidebar p a {
+    color: #3C573A;
+    font-size: 11px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content {
+    float: right;
+    position: relative;
+    width: 521px;
+}
+.content .box {
+    background: url(images/box_bg.png) left top no-repeat;
+    width: 518px;
+    height: 219px;
+}
+.content .box .in {
+    float: left;
+    width: 230px;
+    padding: 30px;
+}
+.content .box .in h2 {
+    color: #3C573A;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.content .box .in p {
+    margin-bottom: 15px;
+    line-height: 17px;
+    color: #4F724C;
+    font-size: 12px;
+}
+.content .box .in a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3C573A;
+}
+.content .box img {
+    left: 272px;
+    position: absolute;
+    top: -35px;
+}
+.content h2.title {
+    color: #3C573A;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 42px;
+    overflow: hidden;
+    margin-left: 25px;
+    clear: both;
+
+}
+.content a.rss {
+    float: right;
+    background: url(images/rss.png) left top no-repeat;
+    font-size: 11px;
+    color: #2E586C;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+.content ul {
+    overflow: hidden;
+    margin-left: 12px;
+    margin-bottom: 90px;
+}
+.content ul li {
+    padding: 11px 0 0 5px;
+    margin-bottom: 15px;
+    border-top: 1px solid #75946D;
+    overflow: hidden;
+}
+.content ul li a img {
+    display: block;
+    float: left;
+    margin-right: 11px;
+}
+.content ul li .title-excerpt {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    color: #30462E;
+}
+.content ul li .title-excerpt h3 {
+    float: left;
+    font-size: 14px;
+}
+.content ul li .title-excerpt p {
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 5px;
+}
+.content ul li p.cont {
+    line-height: 20px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------PAGE-IN---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content .page-in {
+    overflow: hidden;
+    background: url(images/page_bg.png) left top no-repeat;
+    width: 440px;
+    min-height: 760px;
+    padding: 22px 40px 134px 26px;
+}
+
+.content .page-in h2 {
+    color: #3C5739;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.content .page-in p {
+    color: #30462E;
+    font-size: 12px;
+    margin-bottom: 21px;
+    line-height: 20px;
+}
+.content .page-in p a {
+    color: #2F462F;
+    font-weight: bold;
+}
+.content .page-in img {
+    display: block;
+    float: right;
+    margin-left: 34px;
+}
+.content .page-in h3 {
+    color: #3C5739;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.content .page-in h4 {
+    color: #30462E;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer {
+    background: #fff;
+    border-top: 4px solid #6D9D67;
+    height: 95px;
+    letter-spacing: 1px;
+}
+.footer-in {
+    width: 695px;
+    margin: 17px auto 60px;
+}
+.footer-in p {
+    float: left;
+    color: #51450A;
+    font-size: 11px;
+}
+.footer-in p a {
+    color: #51450A;
+    font-weight: bold;
+    font-size: 11px;
+}
+.footer-in .right {
+    float: right;
+}
+.footer-in .right a {
+    color: #51450A;
+    font-size: 11px;
+}
+.footer-in .right span {
+    color: #51450A;
+    font-size: 11px;
+}
