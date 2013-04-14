@@ -7,7 +7,7 @@
                  <div class="in">
                      <h2>Who is more british than <b>Blur</b>?</h2>
                      <p>So folks grab a Boddingtons w/a Flake, Put on 1000 Greatest Goals (we won't talk about the World Cup), and listen to these songs in tribute to the States! </p>
-                     <a href="#">See the Line-Up!</a>
+                     <a href="http://summer.localhost/line-up">See the Line-Up!</a>
                  </div>
 
                 <img src="<?php bloginfo('template_directory'); ?>/images/blur.png" alt="blur"/>
